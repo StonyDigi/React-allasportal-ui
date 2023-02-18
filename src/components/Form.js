@@ -1,16 +1,18 @@
 import React from 'react'
 import './Form.css'
 
-const Form = ({userName, password}) => {
+const Form = () => {
   return (
     <div className='form'>
 
-        <form action="/" method="post">
-            <label>Felhasználónév: </label>
-            <input type="text" placeholder='Felhasználónév' />
-            <label>Jelszó: </label>
-            <input type="password" placeholder='Jelszó'/>
-            <button>Bejelentkezés</button>
+        <form action="" method="post">
+            <label>Állás megnevezése </label>
+            <input type="text" />
+            <label>Dátum</label>
+            <input type="date" />
+            <label>Állás leírása</label>
+            <textarea  cols="35" rows="10"></textarea>
+            <button>Feltöltés</button>
         </form>
 
     </div>

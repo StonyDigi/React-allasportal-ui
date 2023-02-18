@@ -1,7 +1,7 @@
 .form {
     border: 2px solid black;
-    width: 200px;
-    height: 200px;
+    width: 450px;
+    height: 450px;
     margin-left: 300px;
     display: flex;
     justify-content: center;
@@ -11,10 +11,22 @@
     padding: 30px;
     background: grey;
     color: rgb(0, 0, 0);
+    box-sizing: border-box;
 }
 
-.form label, input{
-    display: grid;
-    margin-bottom: 10px;
+.form label, input, textarea{
+    display: block;
+    padding: 8px;
+    margin-bottom: 5px 0 15px;
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    resize: none;
+}
 
+form button {
+    margin-top: 10px;
+    padding:  5px 5px;
+    border-radius: 8px;
 }
