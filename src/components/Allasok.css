@@ -1,0 +1,27 @@
+
+.allasok {
+    margin-top: 50px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    padding: 15px;
+    box-shadow: 6px 5px 35px;
+    width: 500px;
+    background: rgb(222, 181, 58);
+    text-align: justify;
+}
+
+button {
+    font-size: 15px;
+    cursor: pointer;
+    background: rgb(8, 108, 141);
+    color: aliceblue;
+}
+
+hr {
+    height: 2px;
+    width: 400px;
+    background: rgb(86, 76, 76);
+    border: 1px solid black;
+    border-radius: 5px;
+}

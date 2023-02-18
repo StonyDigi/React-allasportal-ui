@@ -1,0 +1,20 @@
+.form {
+    border: 2px solid black;
+    width: 200px;
+    height: 200px;
+    margin-left: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 30px;
+    background: grey;
+    color: rgb(0, 0, 0);
+}
+
+.form label, input{
+    display: grid;
+    margin-bottom: 10px;
+
+}
